@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+
+    <!-- Todolist Window -->
+    <div class="app-container">
+        <h1 class="app-header">Todos</h1>
+        <div class="app-todolist">
+            <ul id="app-todoUL" class="disable-select">
+                <!-- Todo li's go here -->
+            </ul>
+        </div>
+        <button id="app-todoAddBtn" class="app-todo-add">+ todo</button>
+    </div>
+
+    <!-- New Todo Modal -->
+    <div id="modal" class="modal-container hidden">
+        <form action="">
+            <div id="modal-window" class="modal-window">
+                <button id="modal-closeBtn" class="modal-close">X</button>
+                <input id="modal-input" type="text" placeholder="Todo">
+                <input id="modal-addBtn" type="submit" value="Add">
+            </div>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+    </body>
+</html>
